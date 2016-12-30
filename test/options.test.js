@@ -7,7 +7,7 @@ require('json5/lib/require')
 import { run } from '../src/jq'
 import { optionDefaults } from '../src/options'
 
-const PATH_FIXTURES = path.join('test', 'fixtures')
+const PATH_FIXTURES = path.join(__dirname, 'fixtures')
 const PATH_JSON_FIXTURE = path.join(PATH_FIXTURES, '1.json')
 const PATH_JSON5_FIXTURE = path.join(PATH_FIXTURES, '1.json5')
 
